@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+}
+
+
+.link-header {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+    background-image: linear-gradient(rgb(200, 17, 100), white);
+
+    /* margin: 10px ; */
+}
+.link-header:hover {
+    background-image: linear-gradient(white, rgb(200, 17, 100));
+      -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+}
+h1 {
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    background-color: rgb(136, 11, 67);
+    border-radius: 5px;
+    text-align: center;
+    
+}
+h1:hover {
+    background-color: white;
+color: black;
+   transition-duration: 0.5s;
+}
+
+.link-nav {
+    text-decoration: none;
+    background-color: rgb(163, 16, 82);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px;
+    
+}
+
+header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(78, 2, 15);
+}
+
+p {
+    color: white;
+    box-shadow: 10px 5px 5px black;
+    padding: 3px;
+    
+}
+
+.link-text {
+    text-decoration: none;
+    color: rgb(228, 163, 163);
+}
+
+.link-text:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: white;
+}
+
+li {
+    color: white;
+}
